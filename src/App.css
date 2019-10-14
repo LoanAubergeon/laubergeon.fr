@@ -1,22 +1,254 @@
-.App {
+/* GLOBAL */
+
+.heading-site {
+  text-align: center;
+  font-family: "Helvetica", sans-serif, monospace;
+  font-weight: bold;
+  color: black;
+}
+
+.COLORED {
+  height: 400px;
+  width: 100%;
+  background-color : cornflowerblue;
+  padding: 30px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.header, .banner{
+  --main-color: rgb(252, 106, 59);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+@keyframes slideDown {
+  from {
+    transform: translateY(125px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes fondu {
+  from {
+    transform: scale(0.95) ;
+    opacity: 0;
+  }
+  to {
+    transform: scale(1) ease-in;
+    opacity: 1;
+  }
+}
+
+
+/* HEADER */
+.header {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  height: 70px;
+  line-height: 70px;
+  background-color: rgb(121, 121, 121, 0);
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.header .header-logo {
+  color: #FFFFFFFF;
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+  float: left;
+  margin-left: 30px;
+  transition: all 400ms;
+}
+
+.header .header-menu {
+  float: right;
+  margin-right: 30px;
+}
+
+.header .header-menu a {
+  margin-right: 25px;
+  font-weight: bold;
+  color: #FFFFFFFF;
+  transition: all 400ms;
+}
+
+.header .header-menu a:hover {
+  color: var(--main-color);
+}
+
+.header .header-logo:hover {
+  color: var(--main-color);
+}
+
+/* MOBILE */
+@media only screen and (max-width: 750px) {
+  .header .header-menu {
+    display: none;
+  }
+
+  .header .header-logo {
+    display: none;
+  }
+
+  }
+
+/* BANNER */
+.banner {
+  position: relative;
+  margin-top: -25px;
+}
+
+.banner .banner-image {
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
+
+.banner .banner-content {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 10%;
+  bottom: 0;
+  animation: fondu 3s 1s;
+  animation-fill-mode: backwards;
+}
+
+.banner .banner-content .button {
+  position: absolute;
+  bottom: 0%;
+  background : var(--main-color);
+  font-size: 100%;
+  width: 15%;
+  right: 42.5%;
+  left: 42.5%;
+  bottom: 10%;
+  transform: scale(1);
+  transition: all 500ms;
+  animation: slideDown 2s 2s;
+  animation-fill-mode: backwards;
+}
+
+.banner .banner-content .button:hover {
+    transform: scale(1.15);
+    background-color: rgba(0, 0, 0, 0);
+    border-color: white;
+}
+
+.banner .banner-content h1, h2, h3 {
+  font-family: "Helvetica",  sans-serif;
+}
+
+.banner .banner-content h1 {
+  color: white;
+  font-size: 3.125em;
+  font-weight: 12.5em;
+
+}
+.banner .banner-content h2 {
+  color: white;
+  font-size: 3.125em;
+}
+
+.banner .banner-content h3 {
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+/* MOBILE */
+@media only screen and (max-width: 750px) {
+  .banner .banner-content h1 {
+    font-size: 1.5em;
+  }
+  .banner .banner-content h2 {
+    font-size: 1.5em;
+  }
+
+  .banner .banner-content .button {
+    width: 50%;
+    right: 25%;
+    left: 25%;
+  }
+}
+
+
+/* ########## ABOUT ########## */
+
+.about .about-single-element {
+  text-align: center;
+}
+
+.about .about-single-element .icon{
+  font-size: 30px;
+  color: black;
+}
+
+.about .about-single-element p{
+  text-align: left;
+  margin-top: 20px;
+}
+
+.about.my-column {
+  transition: all 400ms;
+}
+
+.about.my-column:hover {
+  transform: scale(1.1);
+  color : var(--main-color);
+}
+
+/* SKILLS */
+
+.skills .my-columns {
+  transition: all 400ms;
+}
+
+.skills .my-columns:hover {
+  transform: scale(1.1);
+  color : var(--main-color);
+}
+
+.skills .my-column {
+  transform: scale(1);
+  text-align: center;
+}
+
+.skills .my-progress {
+  color: green;
+  caret-color: blue;
+  text-align: center;
+}
+
+.skills .my-icon {
+  text-align: center;
+  transition: all 400ms;
+}
+
+.skills .icon{
+  text-align: center;
+  width: 2rem;
+  height: 2rem;
+
+}
+
+
+/* FOOTER */
+.footer .footer-contact-informations {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer .footer-contact-informations ul {
+  padding: 0;
+}
+
+.footer .footer-contact-informations ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 10px;
+  font-size: 30px;
 }
