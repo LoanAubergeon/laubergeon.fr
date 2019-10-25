@@ -29,9 +29,8 @@ function App() {
         <img src={"./bg3.jpg"} alt="Un ordinateur avec un café et un bloc note" class="banner-image"/>
         <div class="banner-content">
           <h1 class="title is-1">Loan Aubergeon</h1>
-          <h2 class="subtitle">Ingénieur développement logiciel</h2>
-          <h3 class="subtitle">En savoir plus :
-          </h3>
+          <h2 class="subtitle">Software Engineer</h2>
+          <h3 class="subtitle"></h3>
           <button class="button is-link">Contactez moi</button>
         </div>
 
@@ -152,10 +151,10 @@ function App() {
                   <div class="notification">
                     <div class="columns">
                       <div class="column is-1">
-                        <img src={"./bg.jpg"} alt="" class="banner-image"/>
+                        <img src={"./logo_thales.jpg"} alt="" class="banner-image"/>
                       </div>
                       <div class="column is-11">
-                        <h1 class="subtitle">Développeur web</h1>
+                        <h1 class="subtitle">Ingénieur développement logiciel - 2019</h1>
                         zazerqzfazfa ze rze raze azer zer azrcazeczECc zE Ze
                       </div>
                     </div>
@@ -171,11 +170,11 @@ function App() {
                   <div class="notification">
                     <div class="columns">
                       <div class="column is-1">
-                        <img src={"./bg.jpg"} alt="" class="banner-image"/>
+                        <img src={"./logo_UM.png"} alt="" class="banner-image"/>
                       </div>
                       <div class="column is-11">
-                        <h1 class="subtitle">Développeur web</h1>
-                        zazerqzfazfa ze rze raze azer zer azrcazeczECc zE Ze
+                        <h1 class="subtitle">Stage - Développement mobile - 2017 - 6 mois</h1>
+                        Réalisation d’une application mobile de covoiturage quotidien à Malte. Application développée pour les appareils iOS en langage Swift et communiquant avec une base de données par la biais d’un serveur.
                       </div>
                     </div>
                   </div>
