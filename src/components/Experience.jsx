@@ -14,17 +14,17 @@ class Experience extends React.Component {
             logo,
             duration,
         } = this.props;
-        const myDuration = this.props.duration ? "- "+this.props.duration : "";
+        const myDuration = duration ? "- "+duration : "";
 
         return (
             <div class="notification">
                 <div class="columns">
                     <div class="column is-1">
-                        <img src={this.props.logo} alt="" class="banner-image"/>
+                        <img src={logo} alt="" class="banner-image"/>
                     </div>
                     <div class="column is-11">
-                        <h1 class="subtitle">{this.props.title} - {this.props.years} {myDuration} </h1>
-                        {this.props.content} 
+                        <h1 class="subtitle">{title} - {years} {myDuration} </h1>
+                        {content} 
                     </div>
                 </div>
             </div>

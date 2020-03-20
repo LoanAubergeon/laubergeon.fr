@@ -10,6 +10,7 @@ class Contact extends React.Component {
     return (<div className="container">
       <div class="block" id="contact">
         <h2 class="subtitle heading-site">Contact</h2>
+        <div class="centered section-line"></div>
         <footer class="footer">
           <div class="footer-contact-form">
             <form>
@@ -17,12 +18,6 @@ class Contact extends React.Component {
                 <label class="label">Votre nom</label>
                 <div class="control">
                   <input class="input" type="text" placeholder="e.g Chirac"/>
-                </div>
-              </div>
-              <div class="field">
-                <label class="label">Votre prénom</label>
-                <div class="control">
-                  <input class="input" type="text" placeholder="e.g Jacques"/>
                 </div>
               </div>
               <div class="field">
@@ -44,7 +39,7 @@ class Contact extends React.Component {
           </div>
 
           <div class="footer-contact-informations">
-            <p>2019 © Loan Aubergeon</p>
+            <p>2020 © Loan Aubergeon</p>
             <ul>
               <li>
                 <a href="#">

@@ -1,10 +1,19 @@
 /* GLOBAL */
 
 .heading-site {
+  display: block;
   text-align: center;
   font-family: "Helvetica", sans-serif, monospace;
-  font-weight: bold;
+  font-size: 2em;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+	line-height: 1em;
+	text-transform: uppercase;
   color: black;
+  margin: 0 0 15px 0;
+	padding: 0;
+  letter-spacing: 0.1em;
+  margin-top: 100px;
 }
 
 .COLORED {
@@ -16,9 +25,44 @@
 }
 
 .header, .banner{
-  --main-color: rgb(252, 106, 59);
+  --main-color: rgb(247, 140, 104);
 }
 
+.empty {
+  height: 70px;
+}
+
+.line {
+	display: block;
+	width: 390px;
+	height: 3px;
+	padding: 0!important;
+	background: #ccc;
+}
+
+.section-line {
+	display: block;
+	width: 250px;
+	height: 3px;
+	padding: 0!important;
+  background : rgb(241, 166, 141);
+  margin-top: -15px;
+  margin-bottom: 45px;
+}
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+
+.greybackground {
+  background-color: rgb(233, 233, 233);
+}
+
+.block {
+  position: relative;
+}
 
 @keyframes slideDown {
   from {
@@ -46,35 +90,35 @@
 /* HEADER */
 .header {
   width: 100%;
-  margin-left: 0;
-  margin-right: 0;
   height: 70px;
   line-height: 70px;
   background-color: rgb(121, 121, 121, 0);
-  position: fixed;
-  top: 0;
-  z-index: 999;
+  position: absolute;
+  text-align: center;
+  z-index: 99;
+  bottom: 0;
 }
 
-.header .header-logo {
-  color: #FFFFFFFF;
-  font-family: "Helvetica", sans-serif;
-  font-weight: bold;
-  float: left;
-  margin-left: 30px;
-  transition: all 400ms;
+.header-sticky {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .header .header-menu {
-  float: right;
-  margin-right: 30px;
+  float: center;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .header .header-menu a {
   margin-right: 25px;
-  font-weight: bold;
+  font-weight: normal;
   color: #FFFFFFFF;
   transition: all 400ms;
+	line-height: 70px;
+	text-transform: uppercase;
 }
 
 .header .header-menu a:hover {
@@ -100,13 +144,19 @@
 /* BANNER */
 .banner {
   position: relative;
-  margin-top: -25px;
+  height: 100vh;
 }
 
 .banner .banner-image {
-  position: relative;
-  top: 0;
-  bottom: 0;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width: 1680px;
+  z-index: -999998;
+  position: absolute;
 }
 
 .banner .banner-content {
@@ -145,14 +195,24 @@
 }
 
 .banner .banner-content h1 {
+  font-family: 'Source Sans Pro', sans-serif;
   color: white;
-  font-size: 3.125em;
-  font-weight: 12.5em;
+	font-size: 3.750em;
+	font-weight: 900;
+	letter-spacing: 0.1em;
+	line-height: 1em;
+  text-transform: uppercase;
+  margin-bottom: 15px;
 
 }
 .banner .banner-content h2 {
+  margin-top: 15px;
   color: white;
-  font-size: 3.125em;
+	font-size: 2em;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+	line-height: 1em;
+	text-transform: uppercase;
 }
 
 .banner .banner-content h3 {

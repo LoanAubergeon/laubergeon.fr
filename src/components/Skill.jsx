@@ -18,7 +18,7 @@ class Skill extends React.Component {
 
         return (
 
-        )
+        );
     }
 }
 

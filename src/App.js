@@ -1,45 +1,63 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from "react"
 import 'bulma/css/bulma.css'
 import './css/App.css';
 import Contact from './components/Contact'
 import Experience from './components/Experience'
+import NavBar from './components/Navbar'
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faCode, faCoffee, faPen} from '@fortawesome/free-solid-svg-icons'
 import {faReact, faJava, faLinux, faSwift} from '@fortawesome/free-brands-svg-icons'
 
 function App() {
-  return (<div class="monPortfolio">
-    <div class="block">
-      <header class="header">
-        <a href="#" class="header-logo">
-          Loan Aubergeon
-        </a>
-        <nav class="header-menu">
-          <a href="#">Accueil</a>
-          <a href="#abouts">A propos</a>
-          <a href="#exp">Experiences</a>
-          <a href="#porfolio">Portfolio</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </header>
-    </div>
+  useEffect(() => {
+    return () => {
+      window.removeEventListener("scroll", () => handleScroll)
+    }
+  }, [])
 
+  const [isSticky, setSticky] = useState(false)
+
+  const handleScroll = () => {
+    window.pageYOffset > window.innerHeight - 70
+      ? setSticky(true)
+      : setSticky(false)
+  }
+
+  const debounce = (func, wait = 5, immediate = true) => {
+    let timeOut
+    return () => {
+      let context = this,
+        args = arguments
+      const later = () => {
+        timeOut = null
+        if (!immediate) func.apply(context, args)
+      }
+      const callNow = immediate && !timeOut
+      clearTimeout(timeOut)
+      timeOut = setTimeout(later, wait)
+      if (callNow) func.apply(context, args)
+    }
+  }
+
+  window.addEventListener("scroll", debounce(handleScroll))
+
+  return (<div class="monPortfolio">
+    <NavBar sticky={isSticky}/>
     <div class="block">
       <div class="banner">
         <img src={"./bg3.jpg"} alt="Un ordinateur avec un café et un bloc note" class="banner-image"/>
         <div class="banner-content">
-          <h1 class="title is-1">Loan Aubergeon</h1>
+          <h1 class="title is-1">Loan AUBERGEON</h1>
+          <div class="centered line"></div>
           <h2 class="subtitle">Software Engineer</h2>
-          <h3 class="subtitle"></h3>
-          <button class="button is-link">Contactez moi</button>
         </div>
-
       </div>
     </div>
-
+    
     <div class="block" id="about">
       <h2 class="subtitle heading-site">About</h2>
+      <div class="centered section-line"></div>
       <div class="container about">
         <div class="columns">
           <div class="column about-single-element my-column">
@@ -65,8 +83,9 @@ function App() {
     </div>
 
     <div class="block" id="skills">
-      <div class="skills">
+      <div class="skills greybackground">
         <h2 class="subtitle heading-site">Skills</h2>
+        <div class="centered section-line"></div>
         <div class="container about">
 
           <div class="columns is-vcentered my-columns">
@@ -141,6 +160,7 @@ function App() {
 
     <div class="block" id="exp">
       <h2 class="subtitle heading-site">Mes experiences</h2>
+      <div class="centered section-line"></div>
       <div class="container is-primary">
         <div class="tile is-ancestor">
           <div class="tile is-vertical is-12">
@@ -184,7 +204,6 @@ function App() {
             <div class="tile">
               <div class="tile is-parent">
                 <article class="tile is-child">
-
                   <div class="notification">
                     <div class="columns">
                       <div class="column is-1">
@@ -223,8 +242,9 @@ function App() {
     </div>
 
     {/* Porfolio */}
-    <div class="block" id="porfolio">
+    <div class="block greybackground" id="porfolio">
       <h2 class="subtitle heading-site">Mon Portfolio</h2>
+      <div class="centered section-line"></div>
       <div class="container">
         <div class="tile is-ancestor">
           <div class="tile is-vertical is-8">
