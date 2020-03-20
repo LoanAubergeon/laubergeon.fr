@@ -1,7 +1,8 @@
 import React from 'react';
 import 'bulma/css/bulma.css'
-import './App.css';
-import Contact from './Contact'
+import './css/App.css';
+import Contact from './components/Contact'
+import Experience from './components/Experience'
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faCode, faCoffee, faPen} from '@fortawesome/free-solid-svg-icons'
@@ -147,22 +148,39 @@ function App() {
             <div class="tile">
               <div class="tile is-parent">
                 <article class="tile is-child">
+                  <Experience 
+                    title="Ingénieur"
+                    years="2020"
+                    logo="./logo_thales.jpg"
+                    content="zrr fz rfr f zr f ze fz e fz e f z ef  e zefzef e fzekfzeof zz pz jzp"
+                  />
 
-                  <div class="notification">
-                    <div class="columns">
-                      <div class="column is-1">
-                        <img src={"./logo_thales.jpg"} alt="" class="banner-image"/>
-                      </div>
-                      <div class="column is-11">
-                        <h1 class="subtitle">Ingénieur développement logiciel - 2019</h1>
-                        zazerqzfazfa ze rze raze azer zer azrcazeczECc zE Ze
-                      </div>
-                    </div>
-                  </div>
+                  <Experience 
+                    title="Ingénieur"
+                    years="2020"
+                    duration="6mois"
+                    logo="./logo_thales.jpg"
+                    content="zrr fz rfr f zr f ze fz e fz e f z ef  e zefzef e fzekfzeof zz pz jzp"
+                  />
+
+                  <Experience 
+                    title="Stage - Développement mobile"
+                    years="2017"
+                    duration="6mois"
+                    logo="././logo_UM.png"
+                    content="zrr fz rfr f zr f ze fz e fz e f z ef  e zefzef e fzekfzeof zz pz jzp"
+                  />
+
+                  <Experience 
+                    title="Développeur web"
+                    years="2010"
+                    duration="16mois"
+                    logo="./bg.jpg"
+                    content="zrr fz rfr f zr f ze fz e fz e f z ef  e zefzef e fzekfzeof zz pz jzp"
+                  />
                 </article>
               </div>
             </div>
-
             <div class="tile">
               <div class="tile is-parent">
                 <article class="tile is-child">

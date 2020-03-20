@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bulma/css/bulma.css'
-import './App.css';
+import '../css/App.css';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
