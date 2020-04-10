@@ -1,0 +1,7 @@
+{
+    "home": {
+      "title": "Software Engineer"
+    },
+    "hello": "Hello {name}!",
+    "fallback": "Fallback message"
+  }

@@ -14,7 +14,6 @@ class Experience extends React.Component {
             logo,
             duration,
         } = this.props;
-        const myDuration = duration ? "- "+duration : "";
 
         return (
             <div class="notification">
@@ -23,7 +22,7 @@ class Experience extends React.Component {
                         <img src={logo} alt="" class="banner-image"/>
                     </div>
                     <div class="column is-11">
-                        <h1 class="subtitle">{title} - {years} {myDuration} </h1>
+                        <h1 class=""><span class="mysubtitle">{title}</span> <span class="bullet">•</span> {years} <span class="bullet">•</span> {duration} </h1>
                         {content} 
                     </div>
                 </div>
