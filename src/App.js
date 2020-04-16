@@ -6,6 +6,7 @@ import Experience from './components/Experience'
 import NavBar from './components/Navbar'
 import About from './components/About'
 import Skills from './components/Skills'
+import Portfolio from './components/Porfolio'
 import {
   setTranslations,
   setDefaultLanguage,
@@ -52,22 +53,17 @@ function App() {
     }
   }
 
-  const handleSetLanguage = (key) => {
-    setLanguage(key);
-    console.log("SET LANG");
-  }
-
   window.addEventListener("scroll", debounce(handleScroll))
 
 
   return (<div class="monPortfolio">
-    {/* NAVBAR */}
+    {/* Barre de navigation */}
     <NavBar sticky={isSticky}/>
 
-    {/* BANNER */}
+    {/* Baniere */}
     <div class="block">
       <div class="banner">
-        <img src={"./bg3.jpg"} alt="Un ordinateur avec un café et un bloc note" class="banner-image"/>
+        <img src={"./bg3.jpg"} alt="Un ordinateur semi ouvert avec de la couleur" class="banner-image"/>
         <div class="banner-content">
           <h1 class="title is-1">Loan AUBERGEON</h1>
           <div class="centered line"></div>
@@ -76,18 +72,18 @@ function App() {
       </div>
     </div>
     
-    {/* ABOUT */}
+    {/* A PROPOS */}
     <div class="block" id="about">
-      <h2 class="subtitle heading-site">About</h2>
+      <h2 class="subtitle heading-site">A Propos</h2>
       <div class="centered section-line"></div>
       <About/>
       <div style={{height:"30px"}}/>
     </div>
 
-    {/* SKILLS */}
+    {/* Expériences */}
     <div class="block" id="skills">
       <div class="skills greybackground">
-        <h2 class="subtitle heading-site">Skills</h2>
+        <h2 class="subtitle heading-site">compétences</h2>
         <div class="centered section-line"></div>
         <Skills/>
         <div style={{height:"60px"}}/>
@@ -95,7 +91,7 @@ function App() {
     </div>
 
     <div class="block" id="exp">
-      <h2 class="subtitle heading-site">Mes experiences</h2>
+      <h2 class="subtitle heading-site">experiences</h2>
       <div class="centered section-line"></div>
       <div class="container is-primary">
         <div class="tile is-ancestor">
@@ -146,47 +142,9 @@ function App() {
 
     {/* Porfolio */}
     <div class="block greybackground" id="porfolio">
-      <h2 class="subtitle heading-site">Mon Portfolio</h2>
+      <h2 class="subtitle heading-site">Portfolio</h2>
       <div class="centered section-line"></div>
-      <div class="container">
-        <div class="tile is-ancestor is-four-fifths">
-          <div class="tile is-vertical">
-            <div class="tile">
-              <div class="tile is-parent is-vertical is-4">
-                <div class="tile is-parent is-vertical">
-                  <article class="tile is-child">
-                    <div class="notification">
-                      <h3>Get A Lift</h3>
-                    </div>
-                  </article>
-                  <article class="tile is-child" >
-                    <div class="img-centered" data-content="Example">
-                      <img src={"./GetALift.png"} alt="Un ordinateur avec un café et un bloc note"/>
-                    </div>
-                  </article>
-                  <div class="tile"></div>
-                </div>
-              </div>
-              <div class="tile is-parent is-vertical">
-              <div class="tile is-parent is-vertical">
-                <article class="tile is-child">
-                  <div class="notification tile-notification">
-                    <h3>Application domotique</h3>
-                  </div>
-                </article>
-                <article class="tile is-child">
-                  <div class="img-centered" data-content="Example">
-                  <img src={"./Citelio.png"} alt="Un ordinateur avec un café et un bloc note" class="img-centered"/>
-                  </div>
-                </article>
-                <div class="tile"></div>
-                <div class="tile"></div>
-              </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Portfolio/>
     </div>
 
     {/* Formulaire de contact */}

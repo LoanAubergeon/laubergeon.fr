@@ -186,6 +186,12 @@
     display: none;
   }
 
+  .banner .banner-image {
+    object-fit: contain; 
+    max-width: 100%;
+    background: black;
+  }
+
   }
 
 /* BANNER */
@@ -284,6 +290,11 @@
   .heading-site {
     font-size: 1.5em;
   }
+
+  .about .about-single-element {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 
@@ -379,8 +390,18 @@
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  display:inline;
 }
+
+@media only screen and (max-width: 750px) {
+  .exp-img {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
 
 
 /* FOOTER */

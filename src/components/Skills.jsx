@@ -23,7 +23,15 @@ const Skills = () => (
         </div>
         <div class="columns wrapper">
             <div class="column">
-                <h3>Tools</h3>
+                <h3>Technologies</h3>
+                <ul>
+                    <li>Développement mobile (Java Android, Swift)</li>
+                    <li>JIRA</li>
+                    <li>KLOCKWORK</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Outils</h3>
                 <ul>
                     <li>GIT</li>
                     <li>JIRA</li>
@@ -31,19 +39,11 @@ const Skills = () => (
                 </ul>
             </div>
             <div class="column">
-                <h3>Tools</h3>
+                <h3>Autres</h3>
                 <ul>
-                    <li>GIT</li>
-                    <li>JIRA</li>
-                    <li>KLOCKWORK</li>
-                </ul>
-            </div>
-            <div class="column">
-                <h3>Tools</h3>
-                <ul>
-                    <li>GIT</li>
-                    <li>JIRA</li>
-                    <li>KLOCKWORK</li>
+                    <li>Montage photo</li>
+                    <li>Montage vidéo</li>
+                    <li></li>
                 </ul>
             </div>
         </div>
