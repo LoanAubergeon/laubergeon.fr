@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/laubergeon.fr/precache-manifest.982867ffb6341ec0ba49293f8dd04f96.js"
+  "/laubergeon.fr/precache-manifest.4734fa4feaf1450a327ba9fe8d224796.js"
 );
 
 self.addEventListener('message', (event) => {
