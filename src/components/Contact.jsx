@@ -16,7 +16,7 @@ class Contact extends React.Component {
         <div class="column wrapper ">
             <p>
               Une question, un besoin, une envie de travailler ensemble ou simplement envie de discuter ? <br />
-              N'hesitez pas en m'envoyer un e-mail via le bouton ci-dessous. 
+              N'hesitez pas à m'envoyer un e-mail via le bouton ci-dessous. <br />
               A bientôt !
             </p>
             <br />
@@ -31,17 +31,18 @@ class Contact extends React.Component {
           <br />
           <br />
         </div>
-
           <div class="footer-contact-informations">
+            {/* eslint-disable-next-line*/}
+            <p>Fait main  🇫🇷</p>
             <p>2020 © Loan Aubergeon</p>
             <ul>
               <li>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/loanaubergeon/">
                   <FontAwesomeIcon className="icon" icon={faLinkedin}/>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://github.com/LoanAubergeon">
                   <FontAwesomeIcon className="icon" icon={faGithub}/>
                 </a>
               </li>

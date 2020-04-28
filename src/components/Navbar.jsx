@@ -6,8 +6,21 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
+const displayNotification = () => {
+  console.log("coucou");
+  return (
+    <div class="notification is-info">
+    <button class="delete"></button>
+    The English version is under developpement.
+    </div>
+  )
+}
+
 const Navbar = ({ sticky }) => (
       <header class={sticky ? "header header-sticky" : "header"}>
+        <a class="header-logo-left" href="#home" onClick={displayNotification}>
+          <span role="img" aria-labelledby="frenchflag">🇫🇷</span>
+        </a>
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/loanaubergeon/" class="header-logo"><FontAwesomeIcon className="icon" icon={faLinkedin}/></a>
         <a href="mailto:laubergeon@gmail.com" class="header-logo"><FontAwesomeIcon className="icon" icon={faEnvelope}/></a>
         <nav class="header-menu">

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react"
+import React, { useEffect, useState } from "react"
 import 'bulma/css/bulma.css'
 import './css/App.css';
 import Contact from './components/Contact'
@@ -11,7 +11,6 @@ import {
   setTranslations,
   setDefaultLanguage,
   setLanguageCookie,
-  setLanguage,
   translate,
 } from 'react-switch-lang';
 
@@ -63,7 +62,7 @@ function App() {
     {/* Baniere */}
     <div class="block">
       <div class="banner">
-        <img src={"./bg3.jpg"} alt="Un ordinateur semi ouvert avec de la couleur" class="banner-image"/>
+        <img src={require('./images/bg3.jpg')} alt="Un ordinateur semi ouvert avec de la couleur" class="banner-image"/>
         <div class="banner-content">
           <h1 class="title is-1">Loan AUBERGEON</h1>
           <div class="centered line"></div>
@@ -101,35 +100,49 @@ function App() {
               <div class="tile is-parent">
                 <article class="tile is-child">
                   <Experience 
-                    title="Ingénieur"
+                    title="Ingénieur développement logiciel"
                     years="2020"
                     duration="Poste actuel"
-                    logo="./logo_thales.jpg"
-                    content="zrr fz rfr f zr f ze fz e fz e f z ef  e zefzef e fzekfzeof zz pz jzp"
+                    logo={require("./images/logo_thales.jpg")}
+                    content="Développement logiciel, utilisation de différents langages, principalement C++ et Javascript, rédaction et passage de tests, rédaction documentaire. Utilisation de méthodes agiles."
                   />
 
                   <Experience 
-                    title="Ingénieur"
+                    title="Apprenti ingénieur développement logiciel"
                     years="2020"
                     duration="6mois"
-                    logo="./logo_thales.jpg"
-                    content="zrr fz rfr f zr f ze fz e fz e f z ef  e zefzef e fzekfzeof zz pz jzp"
+                    logo={require("./images/logo_thales.jpg")}
+                    content="Développement logiciel en C++. Intégré à un projet avec une équipe de 15 personnes au sein de Thales SIX-GTS."
                   />
 
                   <Experience 
-                    title="Stage - Développement mobile"
+                    title="Projet de fin d'étude"
+                    years="2018/2019"
+                    duration="6mois"
+                    logo={require("./images/logo_eseo.jpg")}
+                    content="Développement du logiciel d'une station d'acquisition de données embarquée sur un drone mono-hélice.
+                    Logiciel développé en C et embarqué sur une STM32. Au sein d'une équipe de 4 personnes."
+                  />
+
+                  <Experience 
+                    title="Projet système embarqué"
+                    years="2018"
+                    duration="6mois"
+                    logo={require("./images/logo_eseo.jpg")}
+                    content="Projet répondant au besoin d’une entreprise.
+                    Développeur Android/Java dans une équipe de 7 personnes.
+                    Phases de spécifications, de conception, de réalisation et de test d’un panneau 
+                    de démonstration d’un système équipé de capteurs domotique."
+                  />
+
+                  <Experience 
+                    title="Stage en développement mobile"
                     years="2017"
                     duration="6mois"
-                    logo="././logo_UM.png"
-                    content="zrr fz rfr f zr f ze fz e fz e f z ef  e zefzef e fzekfzeof zz pz jzp"
-                  />
-
-                  <Experience 
-                    title="Développeur web"
-                    years="2010"
-                    duration="16mois"
-                    logo="./bg.jpg"
-                    content="zrr fz rfr f zr f ze fz e fz e f z ef  e zefzef e fzekfzeof zz pz jzp"
+                    logo={require("./images/logo_UM.png")}
+                    content="Conception et développement d’une application mobile de covoiturage quotidien à Malte.
+                    Application développée pour les appareils iOS en langage Swift et communiquant avec une base de
+                    données par la biais d’un serveur."
                   />
                   <div style={{height:"60px"}}/>
                 </article>

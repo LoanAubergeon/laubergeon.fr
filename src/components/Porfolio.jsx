@@ -17,7 +17,7 @@ const Portfolio = () => (
                   </article>
                   <article class="tile is-child" >
                     <div class="img-centered" data-content="Example">
-                      <img src={"./GetALift.png"} alt="Un ordinateur avec un café et un bloc note"/>
+                      <img src={require("../images/GetALift.png")} alt="Un ordinateur avec un café et un bloc note"/>
                     </div>
                   </article>
                   <div class="tile"></div>
@@ -32,7 +32,7 @@ const Portfolio = () => (
                 </article>
                 <article class="tile is-child">
                   <div class="img-centered" data-content="Example">
-                  <img src={"./Citelio.png"} alt="Un ordinateur avec un café et un bloc note" class="img-centered"/>
+                  <img src={require("../images/Citelio.png")} alt="Un ordinateur avec un café et un bloc note" class="img-centered"/>
                   </div>
                 </article>
                 <div class="tile"></div>

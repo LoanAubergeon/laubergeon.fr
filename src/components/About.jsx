@@ -15,7 +15,7 @@ const About = () => (
         </p>
       </div>
       <div class="column is-4 about-single-element ">
-      <img src={"./PP.JPG"} alt="" class="pp-image"/>
+      <img src={require("../images/PP2.jpg")} alt="" class="pp-image"/>
       </div>
       <div class="column is-3 about-single-element">
         <h3>My personal interrest</h3>
