@@ -1,4 +1,4 @@
-/* GLOBAL */
+/* ######################### GLOBAL ######################### */
 
 .heading-site {
   display: block;
@@ -62,6 +62,14 @@
 
 .img-centered img{
 	margin-left: auto;
+	margin-right: auto;
+  display: block;
+  width: 85%;
+}
+
+.img-centered-resized img{
+  width: 70%;
+  margin-left: auto;
 	margin-right: auto;
   display: block;
 }
@@ -179,7 +187,7 @@
 
 
 
-/* BANNER */
+/* ######################### BANNER #########################*/
 .banner {
   position: relative;
   height: 100vh;
@@ -257,7 +265,7 @@
   color: white;
 }
 
-/* ########## ABOUT ########## */
+/* ######################### ABOUT ######################### */
 .about .about-single-element h3 {
   font-weight: bold;
 	line-height: 70px;
@@ -346,7 +354,7 @@
   text-align: center;
 }
 
-/* EXPERIENCE */
+/* ######################### EXPERIENCE ######################### */
 .mysubtitle{
   font-weight: bold;
   text-transform: uppercase;
@@ -359,7 +367,7 @@
   margin-right: auto;
 }
 
-/* FOOTER */
+/* ######################### FOOTER ######################### */
 .footer {
   background: none;
 }
@@ -397,7 +405,7 @@
 }
 
 
-/* MOBILE */
+/* ######################### MOBILE ######################### */
 @media only screen and (max-width: 780px) {
   .header .header-menu {
     display: none;
@@ -451,5 +459,13 @@
   .about .about-single-element {
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  .notification {
+    padding-right: 24px;
+  }
+
+  .notification h1 {
+    padding-bottom: 7px;
   }
 }

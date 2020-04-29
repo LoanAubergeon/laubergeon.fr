@@ -16,7 +16,7 @@ const Portfolio = () => (
                     </div>
                   </article>
                   <article class="tile is-child" >
-                    <div class="img-centered" data-content="Example">
+                    <div class="img-centered-resized" data-content="Example">
                       <img src={require("../images/GetALift.png")} alt="Un ordinateur avec un café et un bloc note"/>
                     </div>
                   </article>
