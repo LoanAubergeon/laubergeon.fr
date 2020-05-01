@@ -104,24 +104,25 @@ function App() {
                 <article class="tile is-child">
                   <Experience 
                     title="Ingénieur développement logiciel"
-                    years="2020"
+                    years="2019"
                     duration="Poste actuel"
                     logo={require("./images/logo_thales.jpg")}
-                    content="Développement logiciel, utilisation de différents langages, principalement C++ et Javascript, rédaction et passage de tests, rédaction documentaire. Utilisation de méthodes agiles."
+                    content="Développement logiciel, utilisation de différents langages, principalement C++ et Javascript, 
+                    rédaction et passage de tests en Python et Javascript, rédaction documentaire. Utilisation de méthodes agiles."
                   />
 
                   <Experience 
                     title="Apprenti ingénieur développement logiciel"
-                    years="2020"
-                    duration="6mois"
+                    years="2018"
+                    duration="1 an"
                     logo={require("./images/logo_thales.jpg")}
-                    content="Développement logiciel en C++. Intégré à un projet avec une équipe de 15 personnes au sein de Thales SIX-GTS."
+                    content="Développement logiciel en C++. Intégré à un projet avec une équipe de 15 personnes."
                   />
 
                   <Experience 
                     title="Projet de fin d'étude"
                     years="2018/2019"
-                    duration="6mois"
+                    duration="6 mois"
                     logo={require("./images/logo_eseo.jpg")}
                     content="Développement du logiciel d'une station d'acquisition de données embarquée sur un drone mono-hélice.
                     Logiciel développé en C et embarqué sur une STM32. Au sein d'une équipe de 4 personnes."
@@ -130,7 +131,7 @@ function App() {
                   <Experience 
                     title="Projet système embarqué"
                     years="2018"
-                    duration="6mois"
+                    duration="6 mois"
                     logo={require("./images/logo_eseo.jpg")}
                     content="Projet répondant au besoin d’une entreprise.
                     Développeur Android/Java dans une équipe de 7 personnes.
@@ -141,7 +142,7 @@ function App() {
                   <Experience 
                     title="Stage en développement mobile"
                     years="2017"
-                    duration="6mois"
+                    duration="6 mois"
                     logo={require("./images/logo_UM.png")}
                     content="Conception et développement d’une application mobile de covoiturage quotidien à Malte.
                     Application développée pour les appareils iOS en langage Swift et communiquant avec une base de

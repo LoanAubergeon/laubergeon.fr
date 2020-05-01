@@ -29,9 +29,9 @@ const Navbar = ({ sticky }) => (
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/loanaubergeon/" class="header-logo"><FontAwesomeIcon className="icon" icon={faLinkedin}/></a>
         <a href="mailto:laubergeon@gmail.com" class="header-logo"><FontAwesomeIcon className="icon" icon={faEnvelope}/></a>
         <nav class="header-menu">
-          <a href="#about">A propos</a>
+          <a href="#about">À propos</a>
           <a href="#skills">Compétences</a>
-          <a href="#exp">Experiences</a>
+          <a href="#exp">Expériences</a>
           <a href="#porfolio">Portfolio</a>
           <a href="#contact">Contact</a>
         </nav>

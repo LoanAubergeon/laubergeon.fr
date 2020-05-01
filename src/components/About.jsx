@@ -8,10 +8,11 @@ const About = () => (
       <div class="column is-3 about-single-element is-offset-1">
         <h3>Résumé</h3>
         <p>
-          Je suis Loan Aubergeon, ingénieur logiciel basé à <strong>Nantes</strong>. <br/>
+          Je suis Loan Aubergeon, <br/>Ingénieur logiciel à <strong>Nantes</strong>, <br/>
           Passionné par l’innovation et les nouvelles technologies, 
-          j'ai été obtenu en septembre un diplôme d'ingénieur généraliste à l'<a href="https://eseo.fr">ESEO</a> à Angers. <br/>
-          Fan de sport (et surtout de rugby), je pratique la course à pieds. 
+          j'ai été diplômé en septembre 2019 de l'<a href="https://eseo.fr">ESEO</a>. <br/>
+          J'ai été Sapeur-Pompier volontaire durant cinq années, ce qui m'a permis d’acquérir des valeurs essentielles selon moi.
+          Fan de sport (et surtout de rugby), je pratique la course à pieds.
 
         </p>
       </div>
@@ -21,10 +22,10 @@ const About = () => (
       <div class="column is-3 about-single-element">
         <h3>Mes intérets</h3>
         <p>
-          Mes cinq années en tant que Sapeur-Pompier volontaire m’ont permis d’acquérir et des valeurs essentiels selon moi.
-          J'aime m'investir à fond dans les choses qui me passionnent.
-          Au fil des projets et expériences dans le domaine du logiciel, j’ai développé un réel attrait pour le <strong>design</strong> d’application en
-          général et <strong>l'expérience utilisateur</strong>. Je souhaite me perfectionner dans cette voie. 
+          J'aime m'investir à fond dans les choses qui me passionnent. <br/>
+          Au fil des projets et expériences dans l'ingénierie' logicielle, j’ai développé un réel attrait pour le <strong>design</strong> et 
+          l'expérience utilisateur, que ce soit pour des applications web, mobiles ou encore pour des visuels telles que des affiches ou 
+          présentations. <br/>Je souhaite me perfectionner dans cette voie. 
         </p>
       </div>
     </div>

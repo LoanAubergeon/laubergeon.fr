@@ -16,10 +16,9 @@ const Skills = () => (
         <div class="column wrapper ">
             <p>
                 Grace à la diversité de mes expériences et projets, je possède des compétences
-                et connaissances plusieurs domaine de l'ingénieurie logiciel,
+                et connaissances plusieurs domaine de l'ingénierie logiciel,
                 du développement mobile au developpement web en passant par l'orienté objet.
-                Malgré mon manque d'expertise dans un domaine en particulier, je suis polyvalent et je m'adapte très rapidement.
-                J'ai mis en avant les C++, React et le python, car ce sont les technologies que j'ai utilisé le plus recement. 
+                Ceci me permet d'être polyvalent et de m'adapter très rapidement.
             </p>
             <br />
             <br />
