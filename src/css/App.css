@@ -24,6 +24,13 @@
   text-align: center;
 }
 
+.anchor{
+  display: block;
+  height: 70px; /*same height as header*/
+  margin-top: -70px; /*same height as header*/
+  visibility: hidden;
+}
+
 .header, .banner {
   --main-color:  rgb(12, 29, 129);
 }
@@ -69,9 +76,6 @@
 
 .img-centered-resized img{
   width: 70%;
-  margin-left: auto;
-	margin-right: auto;
-  display: block;
 }
 
 .img-centered:after {
@@ -271,6 +275,7 @@
 	line-height: 70px;
   text-transform: uppercase;
   top: 0;
+  text-align: center;
 }
 
 .about .about-single-element .icon{

@@ -6,24 +6,25 @@ const About = () => (
     <div class="container about">
     <div class="columns is-vcentered my-columns">
       <div class="column is-3 about-single-element is-offset-1">
-        <h3>Resume</h3>
+        <h3>Résumé</h3>
         <p>
-          Salut efiqze ẑefz oefkoz ke k zefzefzef zef ze ze fefko zkefkoz eok kozeko fkzek fkzek f zefze fze z e zekzekf 
-          kzke fokzoeo fozek fke zk zerfz eféef zef zef ze e zefjnz enf zefn zien zeinf ize nifzn in iz neifni nzien ze 
-          zejfnzjenfj nzejn nzjen fknzezjerbn zefbqijefjz ivzjeizjef zeifjze fiezje fzf efizej zejfz efzefjzeofjzoef .
-          zejzfnz ef ze nfez, ,z e ,fzk ,e ,  ESEO ajefnaejnfj ne  nj aen f Thales.
+          Je suis Loan Aubergeon, ingénieur logiciel basé à <strong>Nantes</strong>. <br/>
+          Passionné par l’innovation et les nouvelles technologies, 
+          j'ai été obtenu en septembre un diplôme d'ingénieur généraliste à l'<a href="https://eseo.fr">ESEO</a> à Angers. <br/>
+          Fan de sport (et surtout de rugby), je pratique la course à pieds. 
+
         </p>
       </div>
       <div class="column is-4 about-single-element ">
       <img src={require("../images/PP2.jpg")} alt="" class="pp-image"/>
       </div>
       <div class="column is-3 about-single-element">
-        <h3>My personal interrest</h3>
+        <h3>Mes intérets</h3>
         <p>
-          Salut efiqze ẑefz oefkoz ke k zefzefzef zef ze ze fefko zkefkoz eok kozeko fkzek fkzek f zefze fze z e zekzekf 
-          kzke fokzoeo fozek fke zk zerfz eféef zef zef ze e zefjnz enf zefn zien zeinf ize nifzn in iz neifni nzien ze 
-          zejfnzjenfj nzejn nzjen fknzezjerbn zefbqijefjz ivzjeizjef zeifjze fiezje fzf efizej zejfz efzefjzeofjzoef .
-          zejzfnz ef ze nfez, ,z e ,fzk ,e ,  ESEO ajefnaejnfj ne  nj aen f Thales.
+          Mes cinq années en tant que Sapeur-Pompier volontaire m’ont permis d’acquérir et des valeurs essentiels selon moi.
+          J'aime m'investir à fond dans les choses qui me passionnent.
+          Au fil des projets et expériences dans le domaine du logiciel, j’ai développé un réel attrait pour le <strong>design</strong> d’application en
+          général et <strong>l'expérience utilisateur</strong>. Je souhaite me perfectionner dans cette voie. 
         </p>
       </div>
     </div>

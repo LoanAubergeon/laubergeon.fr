@@ -39,6 +39,7 @@ const Skills = () => (
                     <li>Git</li>
                     <li>Jira</li>
                     <li>Klockwork</li>
+                    <li>Jenkins</li>
                 </ul>
             </div>
             <div class="column">

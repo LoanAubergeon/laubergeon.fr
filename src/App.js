@@ -72,7 +72,8 @@ function App() {
     </div>
     
     {/* A PROPOS */}
-    <div class="block" id="about">
+    <span class="anchor" id="about"></span>
+    <div class="block">
       <h2 class="subtitle heading-site">A Propos</h2>
       <div class="centered section-line"></div>
       <About/>
@@ -80,7 +81,8 @@ function App() {
     </div>
 
     {/* Expériences */}
-    <div class="block" id="skills">
+    <span class="anchor" id="skills"></span>
+    <div class="block">
       <div class="skills greybackground">
         <h2 class="subtitle heading-site">compétences</h2>
         <div class="centered section-line"></div>
@@ -89,7 +91,8 @@ function App() {
       </div>
     </div>
 
-    <div class="block" id="exp">
+    <span class="anchor" id="exp"></span>
+    <div class="block" >
       <h2 class="subtitle heading-site">experiences</h2>
       <div class="centered section-line"></div>
       <div class="container is-primary">
@@ -154,7 +157,8 @@ function App() {
     </div>
 
     {/* Porfolio */}
-    <div class="block greybackground" id="porfolio">
+    <span class="anchor" id="porfolio"></span>
+    <div class="block greybackground">
       <h2 class="subtitle heading-site">Portfolio</h2>
       <div class="centered section-line"></div>
       <Portfolio/>
