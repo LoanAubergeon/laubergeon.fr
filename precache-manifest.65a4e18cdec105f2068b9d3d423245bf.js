@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8aa0ee6c6453227efd7cb93e432de251",
+    "revision": "67557cf958acaa74127ce3a32aa197d4",
     "url": "/laubergeon.fr/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/laubergeon.fr/static/css/2.1174ccc1.chunk.css"
   },
   {
-    "revision": "3cde74b8f27bd92e4c5b",
-    "url": "/laubergeon.fr/static/css/main.b6ce0e15.chunk.css"
+    "revision": "ab456db581aab871e7c4",
+    "url": "/laubergeon.fr/static/css/main.3d5696bc.chunk.css"
   },
   {
     "revision": "732fe7ca6c26c16fa235",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/laubergeon.fr/static/js/2.1becabdc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3cde74b8f27bd92e4c5b",
-    "url": "/laubergeon.fr/static/js/main.7521ec6f.chunk.js"
+    "revision": "ab456db581aab871e7c4",
+    "url": "/laubergeon.fr/static/js/main.57eacde7.chunk.js"
   },
   {
     "revision": "9f84942cb66f0302fbc1",
