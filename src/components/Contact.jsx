@@ -8,8 +8,8 @@ import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
 class Contact extends React.Component {
   render() {
     return (
-    <div className="container">
-      <div class="block" id="contact">
+    <div className="container contact">
+      <div class="block contact" id="contact">
         <h2 class="subtitle heading-site">Contact</h2>
         <div class="centered section-line"></div>
         <footer class="footer">
@@ -32,7 +32,6 @@ class Contact extends React.Component {
           <br />
         </div>
           <div class="footer-contact-informations">
-            <p>2020 © Loan Aubergeon</p>
             <ul>
               <li>
                 <a href="https://www.linkedin.com/in/loanaubergeon/">
@@ -45,6 +44,7 @@ class Contact extends React.Component {
                 </a>
               </li>
             </ul>
+            <p>2020 © Loan Aubergeon</p>
           </div>
         </footer>
       </div>

@@ -373,15 +373,21 @@
 }
 
 /* ######################### FOOTER ######################### */
+.contact {
+  height: 92vh;
+  position: relative;
+}
+
 .footer {
   background: none;
 }
 
 .footer .footer-contact-informations {
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 0;
-  bottom: 5px;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
 }
 
 .footer-contact-informations ul {
@@ -472,5 +478,10 @@
 
   .notification h1 {
     padding-bottom: 7px;
+  }
+
+  .contact {
+    height: 100vh;
+    position: relative;
   }
 }

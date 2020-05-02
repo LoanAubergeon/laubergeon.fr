@@ -29,7 +29,7 @@ const Skills = () => (
                 <ul>
                     <li>Développement mobile : Java Android, Swift</li>
                     <li>Développement web : React, HTML, CSS</li>
-                    <li>Langage orienté objet : C++, Java</li>
+                    <li>Autre : C++, Java, Node.js</li>
                 </ul>
             </div>
             <div class="column">
