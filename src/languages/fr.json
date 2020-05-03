@@ -1,7 +1,0 @@
-{
-    "home": {
-      "title": "Ingénieur logiciel"
-    },
-    "hello": "Hello {name}!",
-    "fallback": "Fallback message"
-  }

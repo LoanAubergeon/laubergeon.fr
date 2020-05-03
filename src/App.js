@@ -1,25 +1,15 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState} from "react"
 import 'bulma/css/bulma.css'
 import './css/App.css';
+import './i18n'
 import Contact from './components/Contact'
 import Experience from './components/Experience'
 import NavBar from './components/Navbar'
 import About from './components/About'
 import Skills from './components/Skills'
 import Portfolio from './components/Porfolio'
-import {
-  setTranslations,
-  setDefaultLanguage,
-  setLanguageCookie,
-  translate,
-} from 'react-switch-lang';
-
-import en from './languages/en.json';
-import fr from './languages/fr.json';
-
-setTranslations({ en, fr });
-setDefaultLanguage('en');
-setLanguageCookie();
+import { useTranslation } from 'react-i18next'
+import i18n from './i18n'
 
 function App() {
   useEffect(() => {
@@ -54,6 +44,7 @@ function App() {
 
   window.addEventListener("scroll", debounce(handleScroll))
 
+  const { t } = useTranslation();
 
   return (<div class="monPortfolio">
     {/* Barre de navigation */}
@@ -66,12 +57,13 @@ function App() {
         <div class="banner-content">
           <h1 class="title is-1">Loan AUBERGEON</h1>
           <div class="centered line"></div>
-          <h2 class="subtitle">Software Engineer</h2>
+          <h2 class="subtitle">{t('app.title')}</h2>
         </div>
       </div>
     </div>
     
     {/* A PROPOS */}
+    {i18n.t('test.te')}
     <span class="anchor" id="about"></span>
     <div class="block">
       <h2 class="subtitle heading-site">A Propos</h2>
@@ -167,8 +159,7 @@ function App() {
 
     {/* Formulaire de contact */}
     <Contact id="contact"/>
-
   </div>)
 }
 
-export default translate(App);
+export default App;

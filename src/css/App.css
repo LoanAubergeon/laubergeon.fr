@@ -110,6 +110,14 @@
   position: relative;
 }
 
+::-moz-selection { /* Code for Firefox */
+  background: none;
+}
+
+::selection {
+  background: none;
+}
+
 @keyframes slideDown {
   from {
     transform: translateY(125px);
@@ -162,14 +170,13 @@
 .header .header-logo {
   float: right;
   margin-right: 15px;
-  padding-top: 6px;
+  padding-top: 5px;
   color: white;
 }
 
 .header .header-logo-left {
   float: left;
   margin-left: 20px;
-  padding-top: 6px;
 }
 
 .header .header-menu a {

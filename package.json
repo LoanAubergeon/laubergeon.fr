@@ -11,9 +11,12 @@
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.9",
     "bulma": "^0.7.5",
+    "i18next": "^19.4.4",
+    "i18next-xhr-backend": "^3.2.2",
     "react": "^16.13.1",
     "react-announcement": "^1.1.2",
     "react-dom": "^16.13.1",
+    "react-i18next": "^11.4.0",
     "react-scripts": "^3.4.1",
     "react-switch-lang": "^1.0.2"
   },
