@@ -25,7 +25,7 @@ class Contact extends React.Component {
         </div>
         <div class="column wrapper ">
           <a href="mailto:laubergeon@gmail.com">
-          <button class="button is-large is-link is-light mybutton">Dire bonjour</button>
+          <button class="button is-large is-link is-light mybutton">C'est par ici !</button>
           </a>
           <br />
           <br />

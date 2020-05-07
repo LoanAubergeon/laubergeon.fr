@@ -12,9 +12,9 @@ import LanguageSelector from './LanguageSelector';
 const Navbar = ({ sticky }) => (
       <header class={sticky ? "header header-sticky" : "header"}>
         {/* eslint-disable-next-line  */}
-        {<a class="header-logo-left">
+        {/* {<a class="header-logo-left">
           <LanguageSelector />
-        </a> }
+        </a> } */}
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/loanaubergeon/" class="header-logo"><FontAwesomeIcon className="icon" icon={faLinkedin}/></a>
         <a href="mailto:laubergeon@gmail.com" class="header-logo"><FontAwesomeIcon className="icon" icon={faEnvelope}/></a>
         <nav class="header-menu">

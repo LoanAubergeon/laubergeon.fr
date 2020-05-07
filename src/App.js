@@ -57,13 +57,12 @@ function App() {
         <div class="banner-content">
           <h1 class="title is-1">Loan AUBERGEON</h1>
           <div class="centered line"></div>
-          <h2 class="subtitle">{t('app.title')}</h2>
+          <h2 class="subtitle">Software engineer</h2>
         </div>
       </div>
     </div>
     
     {/* A PROPOS */}
-    {i18n.t('test.te')}
     <span class="anchor" id="about"></span>
     <div class="block">
       <h2 class="subtitle heading-site">A Propos</h2>
