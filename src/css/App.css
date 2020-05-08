@@ -78,7 +78,7 @@
   width: 70%;
 }
 
-.img-centered:after {
+/* .img-centered:after {
   content: attr(data-content);
   color:#fff;
   position:absolute;
@@ -91,7 +91,7 @@
   transition: all 0.5s;
   padding-top:  10px;
   -webkit-transition: all 0.5s;
-}
+} */
 .img-centered:hover:after {
   opacity:1;
 }

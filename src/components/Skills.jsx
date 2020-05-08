@@ -15,9 +15,9 @@ const Skills = () => (
         </div>
         <div class="column wrapper ">
             <p>
-                Grace à la diversité de mes expériences et projets, je possède des compétences
-                et connaissances plusieurs domaine de l'ingénierie logiciel,
-                du développement mobile au developpement web en passant par l'orienté objet.
+                Grâce à la diversité de mes expériences et projets, je possède des compétences
+                et connaissances dans différents domaines de l'ingénierie logicielle,
+                du développement mobile au développement web en passant par de l'orienté objet.
                 Ceci me permet d'être polyvalent et de m'adapter très rapidement.
             </p>
             <br />

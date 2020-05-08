@@ -8,8 +8,8 @@ import NavBar from './components/Navbar'
 import About from './components/About'
 import Skills from './components/Skills'
 import Portfolio from './components/Porfolio'
-import { useTranslation } from 'react-i18next'
-import i18n from './i18n'
+//import { useTranslation } from 'react-i18next'
+//import i18n from './i18n'
 
 function App() {
   useEffect(() => {
@@ -44,7 +44,7 @@ function App() {
 
   window.addEventListener("scroll", debounce(handleScroll))
 
-  const { t } = useTranslation();
+  //const { t } = useTranslation();
 
   return (<div class="monPortfolio">
     {/* Barre de navigation */}
@@ -127,7 +127,7 @@ function App() {
                     content="Projet répondant au besoin d’une entreprise.
                     Développeur Android/Java dans une équipe de 7 personnes.
                     Phases de spécifications, de conception, de réalisation et de test d’un panneau 
-                    de démonstration d’un système équipé de capteurs domotique."
+                    de démonstration d’un système équipé de capteurs domotiques."
                   />
 
                   <Experience 
