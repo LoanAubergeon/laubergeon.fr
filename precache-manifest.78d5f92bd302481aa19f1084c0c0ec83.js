@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b9902fe859503207eac62e912fb07361",
+    "revision": "1b0df65718a267819071f0bd57015051",
     "url": "/laubergeon.fr/index.html"
   },
   {
-    "revision": "732fe7ca6c26c16fa235",
+    "revision": "5e8feb78359000816f25",
     "url": "/laubergeon.fr/static/css/2.1174ccc1.chunk.css"
   },
   {
-    "revision": "9e569d5ddb6193c7f38b",
-    "url": "/laubergeon.fr/static/css/main.205d4feb.chunk.css"
+    "revision": "ccfa3929f1a7bbb156be",
+    "url": "/laubergeon.fr/static/css/main.9beac6d9.chunk.css"
   },
   {
-    "revision": "732fe7ca6c26c16fa235",
-    "url": "/laubergeon.fr/static/js/2.1becabdc.chunk.js"
+    "revision": "5e8feb78359000816f25",
+    "url": "/laubergeon.fr/static/js/2.4974c3de.chunk.js"
   },
   {
-    "revision": "0fce063a4ec3cb005e7265693b407036",
-    "url": "/laubergeon.fr/static/js/2.1becabdc.chunk.js.LICENSE.txt"
+    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
+    "url": "/laubergeon.fr/static/js/2.4974c3de.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9e569d5ddb6193c7f38b",
-    "url": "/laubergeon.fr/static/js/main.e946fa6f.chunk.js"
+    "revision": "ccfa3929f1a7bbb156be",
+    "url": "/laubergeon.fr/static/js/main.44b7f2f8.chunk.js"
   },
   {
     "revision": "9f84942cb66f0302fbc1",
