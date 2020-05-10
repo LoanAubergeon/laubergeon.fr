@@ -13,12 +13,11 @@ const Skills = () => (
             <Skill title="React" logo={faReact}/>
             <Skill title="Python" logo={faPython}/>
         </div>
-        <div class="column wrapper ">
+        <div class="column wrapper">
             <p>
-                Grâce à la diversité de mes expériences et projets, je possède des compétences
-                et connaissances dans différents domaines de l'ingénierie logicielle,
-                du développement mobile au développement web en passant par de l'orienté objet.
-                Ceci me permet d'être polyvalent et de m'adapter très rapidement.
+                Je suis curieux, autonome et rigoureux. <br />
+                Mes différents projets et expériences m’ont permis d’acquérir une base technique en ingénierie logicielle, 
+                et de révéler chez moi une certaine polyvalence et une facilité d'adaptation.<br />
             </p>
             <br />
             <br />

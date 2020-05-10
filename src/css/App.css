@@ -357,9 +357,9 @@
 }
 
 .skills p {
-  padding-left: 80px;
-  padding-right: 80px;
-  text-align: justify;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
 }
 
 .wrapper {

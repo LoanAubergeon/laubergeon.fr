@@ -99,7 +99,7 @@ function App() {
                     duration="Poste actuel"
                     logo={require("./images/logo_thales.jpg")}
                     content="Développement logiciel, utilisation de différents langages, principalement C++ et Javascript, 
-                    rédaction et passage de tests en Python et Javascript, rédaction documentaire. Utilisation de méthodes agiles."
+                    rédaction et passage de tests en Python, rédaction documentaire. Utilisation de méthodes agiles."
                   />
 
                   <Experience 

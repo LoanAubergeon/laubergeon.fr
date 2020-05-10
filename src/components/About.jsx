@@ -17,15 +17,15 @@ const About = () => (
         </p>
       </div>
       <div class="column is-4 about-single-element ">
-      <img src={require("../images/PP2.jpg")} alt="" class="pp-image"/>
+      <img src={require("../images/PP3.JPG")} alt="" class="pp-image"/>
       </div>
       <div class="column is-3 about-single-element">
         <h3>Mes intérets</h3>
         <p>
           J'aime m'investir à fond dans les choses qui me passionnent. <br/>
-          Au fil des projets et expériences dans l'ingénierie logicielle, j’ai développé un réel attrait pour le <strong>design d'interface</strong> et 
-          <strong> l'expérience utilisateur</strong>, que ce soit pour des applications web, mobiles ou encore pour des visuels telles que des affiches ou 
-          présentations. <br/>Je souhaite me perfectionner dans cette voie. 
+          Au fil de mes expériences, j’ai développé un réel attrait pour le <strong>design d'interface</strong> et 
+          <strong> l'expérience utilisateur</strong>, que ce soit pour des applications web, mobiles ou autres visuels telles que des affiches ou 
+          présentations. Je souhaite m'améliorer dans cette voie. 
         </p>
       </div>
     </div>
