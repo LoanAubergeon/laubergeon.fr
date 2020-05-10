@@ -23,7 +23,7 @@ const About = () => (
         <h3>Mes intérets</h3>
         <p>
           J'aime m'investir à fond dans les choses qui me passionnent. <br/>
-          Au fil des projets et expériences dans l'ingénierie logicielle, j’ai développé un réel attrait pour le <strong>design</strong> et 
+          Au fil des projets et expériences dans l'ingénierie logicielle, j’ai développé un réel attrait pour le <strong>design d'interface</strong> et 
           <strong> l'expérience utilisateur</strong>, que ce soit pour des applications web, mobiles ou encore pour des visuels telles que des affiches ou 
           présentations. <br/>Je souhaite me perfectionner dans cette voie. 
         </p>
