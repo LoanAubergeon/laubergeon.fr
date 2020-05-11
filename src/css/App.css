@@ -78,11 +78,11 @@
   width: 70%;
 }
 
-/* .img-centered:after {
+.img-centered:after {
   content: attr(data-content);
   color:#fff;
   position:absolute;
-  width:100%; height:100%;
+  width:85%; height:100%;
   top:0; left:0;
   background:rgba(0,0,0,0.75);
   font-family: "Helvetica", sans-serif, monospace;
@@ -90,8 +90,11 @@
   opacity:0;
   transition: all 0.5s;
   padding-top:  10px;
-  -webkit-transition: all 0.5s;
-} */
+  -webkit-transition: all 1s;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 .img-centered:hover:after {
   opacity:1;
 }

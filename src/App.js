@@ -65,7 +65,7 @@ function App() {
     {/* A PROPOS */}
     <span class="anchor" id="about"></span>
     <div class="block">
-      <h2 class="subtitle heading-site">A Propos</h2>
+      <h2 class="subtitle heading-site">à Propos</h2>
       <div class="centered section-line"></div>
       <About/>
       <div style={{height:"30px"}}/>
@@ -84,7 +84,7 @@ function App() {
 
     <span class="anchor" id="exp"></span>
     <div class="block" >
-      <h2 class="subtitle heading-site">experiences</h2>
+      <h2 class="subtitle heading-site">expériences</h2>
       <div class="centered section-line"></div>
       <div class="container is-primary">
         <div class="tile is-ancestor">
