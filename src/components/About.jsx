@@ -24,7 +24,7 @@ const About = () => (
         <p>
           J'aime m'investir à fond dans les choses qui me passionnent. <br/>
           Au fil de mes expériences, j’ai développé un réel attrait pour le <strong>design d'interface</strong> et 
-          <strong> l'expérience utilisateur</strong>, que ce soit pour des applications web, mobiles ou autres visuels telles que des affiches ou 
+          <strong> l'expérience utilisateur</strong>, que ce soit pour des applications web, mobiles ou autres visuels tels que des affiches ou 
           présentations. Je souhaite m'améliorer dans cette voie. 
         </p>
       </div>
