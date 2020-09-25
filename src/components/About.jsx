@@ -12,7 +12,7 @@ const About = () => (
           Passionné par l’innovation et les nouvelles technologies, 
           j'ai été diplômé en septembre 2019 de l'<a href="https://eseo.fr">ESEO</a>. <br/>
           J'ai été Sapeur-Pompier volontaire durant cinq années, ce qui m'a permis d’acquérir des valeurs essentielles selon moi.
-          Fan de sport (et surtout de rugby), je pratique la course à pieds.
+          Fan de sport (et surtout de rugby), je pratique la course à pied et le cyclisme.
 
         </p>
       </div>
@@ -20,7 +20,7 @@ const About = () => (
       <img src={require("../images/PP3.JPG")} alt="" class="pp-image"/>
       </div>
       <div class="column is-3 about-single-element">
-        <h3>Mes intérets</h3>
+        <h3>Mes intérêts</h3>
         <p>
           J'aime m'investir à fond dans les choses qui me passionnent. <br/>
           Au fil de mes expériences, j’ai développé un réel attrait pour le <strong>design d'interface</strong> et 
