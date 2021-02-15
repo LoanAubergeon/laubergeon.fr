@@ -214,9 +214,11 @@
   margin: 0px;
   padding: 0px;
   height: 100vh;
-  width: 1680px;
+  width: 100%;
   z-index: -999998;
   position: absolute;
+  background-color: black;
+
 }
 
 .banner .banner-content {

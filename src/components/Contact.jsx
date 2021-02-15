@@ -3,7 +3,7 @@ import 'bulma/css/bulma.css'
 import '../css/App.css';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin, faGithub, faUnsplash} from '@fortawesome/free-brands-svg-icons'
 
 class Contact extends React.Component {
   render() {
