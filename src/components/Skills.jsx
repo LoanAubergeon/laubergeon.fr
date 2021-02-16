@@ -16,7 +16,8 @@ const Skills = () => (
         <div class="column wrapper">
             <p>
                 Je suis curieux, autonome et rigoureux. <br />
-                Mes différents projets et expériences m’ont permis d’acquérir une base technique en ingénierie logicielle, 
+                Mes différents projets et expériences m’ont permis d’acquérir une base technique  <br />
+                en ingénierie logicielle, 
                 et de révéler chez moi une certaine polyvalence et une facilité d'adaptation.<br />
             </p>
             <br />
@@ -26,9 +27,9 @@ const Skills = () => (
             <div class="column">
                 <h3>Technologies</h3>
                 <ul>
-                    <li>Développement mobile : Java Android, Swift</li>
-                    <li>Développement web : React, HTML, CSS</li>
-                    <li>Autre : C++, Java, Node.js</li>
+                    <li>JavaScript, React</li>
+                    <li>HTML et CSS</li>
+                    <li>C++, Java, Python</li>
                 </ul>
             </div>
             <div class="column">
@@ -38,6 +39,8 @@ const Skills = () => (
                     <li>Jira</li>
                     <li>Klockwork</li>
                     <li>Jenkins</li>
+                    <li>Robot Framework</li>
+                    <li>Selenium</li>
                 </ul>
             </div>
             <div class="column">

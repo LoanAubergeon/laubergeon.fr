@@ -3,7 +3,7 @@ import 'bulma/css/bulma.css'
 import '../css/App.css';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faLinkedin, faGithub, faUnsplash} from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 class Contact extends React.Component {
   render() {
@@ -44,7 +44,7 @@ class Contact extends React.Component {
                 </a>
               </li>
             </ul>
-            <p>2020 © Loan Aubergeon</p>
+            <p>2021 © Loan Aubergeon</p>
           </div>
         </footer>
       </div>
