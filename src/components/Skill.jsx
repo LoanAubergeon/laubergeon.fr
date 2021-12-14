@@ -5,7 +5,6 @@ import '../css/App.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 
-
 class Skill extends React.Component {
     render() {
         // props
